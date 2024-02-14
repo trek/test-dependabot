@@ -9,6 +9,8 @@ updates:
       prefix: '[framework-fixtures]'
     package-ecosystem: 'npm'
     directory: /scripts/framework-matrix/framework-fixtures/angular-v17
+    allow:
+      - dependency-name: "@angular*"
     groups:
       core:
         patterns:
