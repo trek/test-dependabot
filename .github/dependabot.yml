@@ -1,0 +1,18 @@
+version: 2
+
+updates:
+  - schedule:
+      interval: 'daily'
+    reviewers:
+      - 'trek'
+    commit-message:
+      prefix: '[framework-fixtures]'
+    package-ecosystem: 'npm'
+    directory: /scripts/framework-matrix/framework-fixtures/angular-v17
+    groups:
+      core:
+        patterns:
+          - "@angular*"
+        update-types:
+          - "minor"
+          - "patch"
