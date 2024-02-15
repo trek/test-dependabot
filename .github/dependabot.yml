@@ -11,13 +11,19 @@ updates:
     package-ecosystem: 'npm'
     directory: /scripts/framework-matrix/framework-fixtures/hydrogen-v2023
     allow:
-      - dependency-name: "@remix-run*"
-      - dependency-name: "@shopify*"
+      - dependency-name: "@remix-run"
+      - dependency-name: "@shopify/cli"
+      - dependency-name: "@shopify/cli-hydrogen"
+      - dependency-name: "@shopify/hydrogen"
+      - dependency-name: "@shopify/remix-oxygen"
     groups:
       core:
         patterns:
-          - "@remix-run*"
-          - "@shopify*"
+          - "@remix-run"
+          - "@shopify/cli"
+          - "@shopify/cli-hydrogen"
+          - "@shopify/hydrogen"
+          - "@shopify/remix-oxygen"
         update-types:
           - "minor"
   - schedule:
