@@ -2,7 +2,121 @@ version: 2
 
 updates:
   - schedule:
-      interval: 'daily'
+    interval: 'daily'
+    open-pull-requests-limit: 1
+    reviewers:
+      - 'trek'
+    commit-message:
+      prefix: '[framework-fixtures]'
+    package-ecosystem: 'npm'
+    directory: /scripts/framework-matrix/framework-fixtures/hydrogen-v2023
+    allow:
+      - dependency-name: "@remix-run*"
+      - dependency-name: "@shopify*"
+    groups:
+      core:
+        patterns:
+          - "@remix-run*"
+          - "@shopify*"
+        update-types:
+          - "minor"
+  - schedule:
+    interval: 'daily'
+    open-pull-requests-limit: 1
+    reviewers:
+      - 'trek'
+    commit-message:
+      prefix: '[framework-fixtures]'
+    package-ecosystem: 'npm'
+    directory: /scripts/framework-matrix/framework-fixtures/ionic-angular-v7
+    allow:
+      - dependency-name: "@angular*"
+      - dependency-name: "@ionic*"
+    groups:
+      core:
+        patterns:
+          - "@angular*"
+          - "@ionic*"
+        update-types:
+          - "minor"
+  - schedule:
+    interval: 'daily'
+    open-pull-requests-limit: 1
+    reviewers:
+      - 'trek'
+    commit-message:
+      prefix: '[framework-fixtures]'
+    package-ecosystem: 'npm'
+    directory: /scripts/framework-matrix/framework-fixtures/ionic-react-v7
+    allow:
+      - dependency-name: "@ionic*"
+      - dependency-name: "react*"
+    groups:
+      core:
+        patterns:
+          - "@ionic*"
+          - "react*"
+        update-types:
+          - "minor"
+  - schedule:
+    interval: 'daily'
+    open-pull-requests-limit: 1
+    reviewers:
+      - 'trek'
+    commit-message:
+      prefix: '[framework-fixtures]'
+    package-ecosystem: 'npm'
+    directory: /scripts/framework-matrix/framework-fixtures/nuxt-v3
+    allow:
+      - dependency-name: "nuxt"
+      - dependency-name: "vue"
+      - dependency-name: "vue-router"
+      - dependency-name: "@nuxt-devtools"
+    groups:
+      core:
+        patterns:
+          - "nuxt"
+          - "vue"
+          - "vue-router"
+          - "@nuxt-devtools"
+        update-types:
+          - "minor"
+  - schedule:
+    interval: 'daily'
+    open-pull-requests-limit: 1
+    reviewers:
+      - 'trek'
+    commit-message:
+      prefix: '[framework-fixtures]'
+    package-ecosystem: 'npm'
+    directory: /scripts/framework-matrix/framework-fixtures/stencil-v4
+    allow:
+      - dependency-name: "@stencil/core"
+    groups:
+      core:
+        patterns:
+          - "@stencil/core"
+        update-types:
+          - "minor"
+  - schedule:
+    interval: 'daily'
+    open-pull-requests-limit: 1
+    reviewers:
+      - 'trek'
+    commit-message:
+      prefix: '[framework-fixtures]'
+    package-ecosystem: 'npm'
+    directory: /scripts/framework-matrix/framework-fixtures/vite-v5
+    allow:
+      - dependency-name: "vite"
+    groups:
+      core:
+        patterns:
+          - "vite"
+        update-types:
+          - "minor"
+  - schedule:
+    interval: 'daily'
     open-pull-requests-limit: 1
     reviewers:
       - 'trek'

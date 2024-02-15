@@ -1,0 +1,10 @@
+:root {
+  --color-bg-1: hsl(209, 36%, 86%);
+  --color-text: rgba(0, 0, 0, 0.7);
+  color: var(--color-text);
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-bg-1);
+}
