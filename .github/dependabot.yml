@@ -11,10 +11,10 @@ updates:
     package-ecosystem: 'npm'
     directory: /scripts/framework-matrix/framework-fixtures/astro-v4
     allow:
-      - dependency-name: "@astro*"
+      - dependency-name: "astro*"
     groups:
       core:
         patterns:
-          - "@astro*"
+          - "astro*"
         update-types:
           - "minor"
