@@ -106,7 +106,7 @@ updates:
     commit-message:
       prefix: '[framework-fixtures]'
     package-ecosystem: 'npm'
-    directory: /scripts/framework-matrix/framework-fixtures/sveltekit-v2
+    directory: /scripts/framework-matrix/framework-fixtures/vite-5
     allow:
       - dependency-name: "vite"
     groups:
@@ -123,7 +123,7 @@ updates:
     commit-message:
       prefix: '[framework-fixtures]'
     package-ecosystem: 'npm'
-    directory: /scripts/framework-matrix/framework-fixtures/vite-v5
+    directory: /scripts/framework-matrix/framework-fixtures/sveltekit-v2
     allow:
       - dependency-name: "svelte"
       - dependency-name: "vite"
