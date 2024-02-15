@@ -106,12 +106,33 @@ updates:
     commit-message:
       prefix: '[framework-fixtures]'
     package-ecosystem: 'npm'
-    directory: /scripts/framework-matrix/framework-fixtures/vite-v5
+    directory: /scripts/framework-matrix/framework-fixtures/sveltekit-v2
     allow:
       - dependency-name: "vite"
     groups:
       core:
         patterns:
           - "vite"
+        update-types:
+          - "minor"
+  - schedule:
+      interval: 'daily'
+    open-pull-requests-limit: 1
+    reviewers:
+      - 'trek'
+    commit-message:
+      prefix: '[framework-fixtures]'
+    package-ecosystem: 'npm'
+    directory: /scripts/framework-matrix/framework-fixtures/vite-v5
+    allow:
+      - dependency-name: "svelte"
+      - dependency-name: "vite"
+      - dependency-name: "@svelte*"
+    groups:
+      core:
+        patterns:
+          - "svelte"
+          - "vite"
+          - "@svelte"
         update-types:
           - "minor"
