@@ -133,6 +133,6 @@ updates:
         patterns:
           - "svelte"
           - "vite"
-          - "@svelte"
+          - "@svelte*"
         update-types:
           - "minor"
