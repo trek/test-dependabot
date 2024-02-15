@@ -2,7 +2,7 @@ version: 2
 
 updates:
   - schedule:
-    interval: 'daily'
+      interval: 'daily'
     open-pull-requests-limit: 1
     reviewers:
       - 'trek'
@@ -21,7 +21,7 @@ updates:
         update-types:
           - "minor"
   - schedule:
-    interval: 'daily'
+      interval: 'daily'
     open-pull-requests-limit: 1
     reviewers:
       - 'trek'
@@ -40,7 +40,7 @@ updates:
         update-types:
           - "minor"
   - schedule:
-    interval: 'daily'
+      interval: 'daily'
     open-pull-requests-limit: 1
     reviewers:
       - 'trek'
@@ -59,7 +59,7 @@ updates:
         update-types:
           - "minor"
   - schedule:
-    interval: 'daily'
+      interval: 'daily'
     open-pull-requests-limit: 1
     reviewers:
       - 'trek'
@@ -82,7 +82,7 @@ updates:
         update-types:
           - "minor"
   - schedule:
-    interval: 'daily'
+      interval: 'daily'
     open-pull-requests-limit: 1
     reviewers:
       - 'trek'
@@ -99,7 +99,7 @@ updates:
         update-types:
           - "minor"
   - schedule:
-    interval: 'daily'
+      interval: 'daily'
     open-pull-requests-limit: 1
     reviewers:
       - 'trek'
@@ -116,7 +116,7 @@ updates:
         update-types:
           - "minor"
   - schedule:
-    interval: 'daily'
+      interval: 'daily'
     open-pull-requests-limit: 1
     reviewers:
       - 'trek'
