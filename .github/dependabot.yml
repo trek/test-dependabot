@@ -11,10 +11,15 @@ updates:
     directory: /scripts/framework-matrix/framework-fixtures/hydrogen-v2023
     allow:
       - dependency-name: "@remix-run"
+        update-types: ["version-update:semver-minor"]
       - dependency-name: "@shopify/cli"
+        update-types: ["version-update:semver-minor"]
       - dependency-name: "@shopify/cli-hydrogen"
+        update-types: ["version-update:semver-minor"]
       - dependency-name: "@shopify/hydrogen"
+        update-types: ["version-update:semver-minor"]
       - dependency-name: "@shopify/remix-oxygen"
+        update-types: ["version-update:semver-minor"]
     groups:
       core:
         patterns:
