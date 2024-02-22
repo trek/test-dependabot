@@ -17,15 +17,15 @@ updates:
       - dependency-name: "@shopify/remix-oxygen"
     ignore:
       - dependency-name: "@remix-run"
-        update-types: ["version-update:semver-major", "version-update:semver-minor"]
+        update-types: ["version-update:semver-major", "version-update:semver-patch"]
       - dependency-name: "@shopify/cli"
-        update-types: ["version-update:semver-major", "version-update:semver-minor"]
+        update-types: ["version-update:semver-major", "version-update:semver-patch"]
       - dependency-name: "@shopify/cli-hydrogen"
-        update-types: ["version-update:semver-major", "version-update:semver-minor"]
+        update-types: ["version-update:semver-major", "version-update:semver-patch"]
       - dependency-name: "@shopify/hydrogen"
-        update-types: ["version-update:semver-major", "version-update:semver-minor"]
+        update-types: ["version-update:semver-major", "version-update:semver-patch"]
       - dependency-name: "@shopify/remix-oxygen"
-        update-types: ["version-update:semver-major", "version-update:semver-minor"]
+        update-types: ["version-update:semver-major", "version-update:semver-patch"]
     groups:
       core:
         patterns:
@@ -50,9 +50,9 @@ updates:
       - dependency-name: "@ionic*"
     ignore:
       - dependency-name: "@angular*"
-        update-types: ["version-update:semver-major", "version-update:semver-minor"]
+        update-types: ["version-update:semver-major", "version-update:semver-patch"]
       - dependency-name: "@ionic*"
-        update-types: ["version-update:semver-major", "version-update:semver-minor"]
+        update-types: ["version-update:semver-major", "version-update:semver-patch"]
     groups:
       core:
         patterns:
