@@ -11,15 +11,21 @@ updates:
     directory: /scripts/framework-matrix/framework-fixtures/hydrogen-v2023
     allow:
       - dependency-name: "@remix-run"
-        update-types: ["version-update:semver-minor"]
       - dependency-name: "@shopify/cli"
-        update-types: ["version-update:semver-minor"]
       - dependency-name: "@shopify/cli-hydrogen"
-        update-types: ["version-update:semver-minor"]
       - dependency-name: "@shopify/hydrogen"
-        update-types: ["version-update:semver-minor"]
       - dependency-name: "@shopify/remix-oxygen"
-        update-types: ["version-update:semver-minor"]
+    ignore:
+      - dependency-name: "@remix-run"
+        update-types: ["version-update:semver-major", "version-update:semver-minor"]
+      - dependency-name: "@shopify/cli"
+        update-types: ["version-update:semver-major", "version-update:semver-minor"]
+      - dependency-name: "@shopify/cli-hydrogen"
+        update-types: ["version-update:semver-major", "version-update:semver-minor"]
+      - dependency-name: "@shopify/hydrogen"
+        update-types: ["version-update:semver-major", "version-update:semver-minor"]
+      - dependency-name: "@shopify/remix-oxygen"
+        update-types: ["version-update:semver-major", "version-update:semver-minor"]
     groups:
       core:
         patterns:
@@ -42,6 +48,11 @@ updates:
     allow:
       - dependency-name: "@angular*"
       - dependency-name: "@ionic*"
+    ignore:
+      - dependency-name: "@angular*"
+        update-types: ["version-update:semver-major", "version-update:semver-minor"]
+      - dependency-name: "@ionic*"
+        update-types: ["version-update:semver-major", "version-update:semver-minor"]
     groups:
       core:
         patterns:
